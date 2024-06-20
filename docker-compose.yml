@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+  my-website:
+    image: markor/app:latest
+    ports:
+      - "3000:3000"
